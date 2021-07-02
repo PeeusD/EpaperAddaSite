@@ -108,11 +108,15 @@ table
 }
 
 table   tr  td  .cnt{
-    color: rgb(247, 171, 8);
-    padding: 10px;
-    margin: 20px;
+    background: rgb(236, 183, 6);
+    border-top: solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
     text-decoration: none;
-    background-color: black;
+    color: rgb(15, 15, 15);
+  
+    text-decoration: none;
+   
     border-radius: 5px;
     cursor: pointer;
 
@@ -373,21 +377,7 @@ table   tr  td{
 
 
 }
-.container  .box:hover  .circle
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100px;
-    border-radius: 50%;
-    transition: 0.5s;
-    background: #fff;
-    transform-style: preserve-3d ;
-    z-index: 10; 
-    opacity:1;   
-    transform: translate3d(-50%,-50%, 50px);
 
-}
 
 .container  .box    .product
 {
@@ -553,12 +543,11 @@ table   tr  td{
     }
 
     table{
-        padding: 10px;
-       
-      
+        padding: 0px;
+        font-size: 12px;
+        
     }
-
-
+   
 }
 
 
