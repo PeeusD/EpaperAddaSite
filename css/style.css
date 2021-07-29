@@ -55,6 +55,10 @@ ul {
  
 
 }
+h1.quote {
+    font-family: 'Style Script', cursive;
+    font-size: 45px;
+}
 
 li {
   float: left;
@@ -79,6 +83,7 @@ li .ancr
 li .ancr:hover {
   transition: 1s;
   color: rgb(248, 184, 8);
+  font-weight: bold;
  
 }
 
@@ -251,7 +256,7 @@ table   tr  td{
 
 .my_quotes{
     padding: 300px;
-   
+
     text-align: center;
     background: rgb(235, 200, 7);
   
@@ -423,6 +428,7 @@ table   tr  td{
 }
 
 
+
   /* Contact Pg*/
 
   * {box-sizing: border-box;}
@@ -524,10 +530,11 @@ table   tr  td{
     padding: 20px 20px;
     }
 
+
     .my_quotes {
- 
+     
       padding:150px 30px;
-      font-size: .8rem;
+     
 
     }
     .my_quotes  h2{
